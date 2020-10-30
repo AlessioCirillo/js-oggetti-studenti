@@ -28,12 +28,17 @@ for (var i = 0; i < array.length; i++){
     console.log(array[i].nome , array[i].cognome);
 }
 
+//STEP 3
 var nome = prompt( 'inserisci nome' );
 var cognome = prompt( 'inserisci cognome' );
 var anni = parseInt ( prompt ( 'inserisci la tua età' ) );
 
 var oggettiUser = {};
 
-oggettiUser.nome
+oggettiUser.nome = nome;
+oggettiUser.cognome = cognome;
+oggettiUser.anni = anni;
+
+array.push(oggettiUser);
 
 console.log(array);
