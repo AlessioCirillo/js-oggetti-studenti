@@ -24,11 +24,16 @@ var array = [
     }
 ]
 
+for (var i = 0; i < array.length; i++){
+    console.log(array[i].nome , array[i].cognome);
+}
 
 var nome = prompt( 'inserisci nome' );
 var cognome = prompt( 'inserisci cognome' );
 var anni = parseInt ( prompt ( 'inserisci la tua età' ) );
 
 var oggettiUser = {};
+
+oggettiUser.nome
 
 console.log(array);
